@@ -6,6 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>12</LangVersion>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <Description>Initialize CORS Policies by leveraging the IConfiguration framework</Description>
         <Authors>Frank Gehann</Authors>
         <RepositoryUrl>https://github.com/teian/AspNetCore.Cors.Extensions</RepositoryUrl>
