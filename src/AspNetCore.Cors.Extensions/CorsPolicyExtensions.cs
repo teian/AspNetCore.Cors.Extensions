@@ -12,13 +12,18 @@ public static class CorsPolicyExtensions
     /// <summary>
     /// Adds cors policies configured in the default section name "Cors"
     /// </summary>
-    /// <param name="serviceCollection"></param>
-    /// <param name="configurationRoot"></param>
+    /// <param name="serviceCollection">service collection used to add the policy to</param>
+    /// <param name="configurationRoot">the <see cref="IConfigurationRoot"/> used to resolve the configuration</param>
     public static void AddCorsPolicies(this IServiceCollection serviceCollection, IConfigurationRoot configurationRoot)
     {
         serviceCollection.AddCorsPolicies(configurationRoot.GetSection("Cors"));
     }
 
+    /// <summary>
+    /// Adds cors policies configured in the default section name "Cors"
+    /// </summary>
+    /// <param name="serviceCollection">service collection used to add the policy to</param>
+    /// <param name="configurationSection">the <see cref="IConfigurationSection"/> used to resolve the configuration</param>
     public static void AddCorsPolicies(
         this IServiceCollection serviceCollection,
         IConfigurationSection configurationSection)
