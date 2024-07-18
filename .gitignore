@@ -366,3 +366,6 @@ MigrationBackup/
 FodyWeavers.xsd
 /test/Xtensible.TusDotNet.Azure.Tests/appSettings.local.json
 /test/Xtensible.TusDotNet.Azure.Benchmarks/appSettings.local.json
+
+# don't include appsettings.*.json
+appsettings.*.json
