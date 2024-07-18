@@ -7,7 +7,7 @@ namespace AspNetCore.Cors.Extensions;
 /// <summary>
 ///     Extensions methods for <see cref="CorsPolicyBuilder"/>s.
 /// </summary>
-public static class CorsPolicyBuilderExtensions
+public static class CorsPolicyExtensions
 {
     /// <summary>
     /// Adds cors policies configured in the default section name "Cors"
