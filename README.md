@@ -21,13 +21,15 @@ In appsettings.json
       "Headers": ["*"],
       "Methods": ["*"],
       "Origins":  ["*"],
-      "SupportsCredentials": true
+      "SupportsCredentials": false
     }
   }
 }
 ```
 
 Note: See [CorsPolicy](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.cors.infrastructure.corspolicy) documentation to see which properties to use
+
+Note: Setting `SupportsCredentials` with a Wildcard (*) Origin is not supported by the specification and will not work!        
 
 Startup.cs
 ```csharp
