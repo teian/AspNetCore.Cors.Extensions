@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Cors.Extensions", "src\AspNetCore.Cors.Extensions\AspNetCore.Cors.Extensions.csproj", "{1723FD28-CF85-4FC2-B75B-E90D63116BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{116B47E1-CA02-41D3-9D3D-866B30C21B4E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		License.txt = License.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AD9B6AF-CF68-4978-88A4-9E64F5DB5F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1723FD28-CF85-4FC2-B75B-E90D63116BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1723FD28-CF85-4FC2-B75B-E90D63116BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1723FD28-CF85-4FC2-B75B-E90D63116BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1723FD28-CF85-4FC2-B75B-E90D63116BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1723FD28-CF85-4FC2-B75B-E90D63116BD8} = {5AD9B6AF-CF68-4978-88A4-9E64F5DB5F00}
+	EndGlobalSection
+EndGlobal

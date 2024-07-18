@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.0</Version>
+        <TargetFrameworks>netcoreapp3.1;net6.0;net7.0;net8.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+        <Description>Initialize CORS Policies by leveraging the IConfiguration framework</Description>
+        <Authors>Frank Gehann</Authors>
+        <RepositoryUrl>https://github.com/teian/AspNetCore.Cors.Extensions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageReleaseNotes>Release notes at https://github.com/teian/AspNetCore.Cors.Extensions/releases</PackageReleaseNotes>
+        <PackageProjectUrl>https://github.com/teian/AspNetCore.Cors.Extensions</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>cors, policy, appsettings, config, iconfiguration, extension</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+    </ItemGroup>
+
+</Project>
